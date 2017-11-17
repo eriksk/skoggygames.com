@@ -1,10 +1,7 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
 ---
 
-<p class="center">
-yolo
-</p>
+Skoggy Games is a one man indie game development studio
+
+Currently working on [PUCK OFF](http://puckoffgame.com/) - a local multiplayer hockey game.
