@@ -1,0 +1,44 @@
+[
+    { 
+        "title": "Shotgun Shack",
+        "description" : "Shotgun Shack was made as a part of a Indie Game Development Presentation held in Borås/Sweden in 2016",
+        "itchioGameId": "121674",
+        "itchioGameUrl": "https://skoggygames.itch.io/shotgun-shack"
+    },
+    {
+        "title": "CEO",
+        "description" : "CEO - Chief Execution Officer. CEO is an action platformer with LOTS of explosions! Use your rifle and granade launcher to destroy the evil that has posessed your employees - Made for Ludum Dare 33",
+        "itchioGameId": "34131",
+        "itchioGameUrl": "https://skoggygames.itch.io/ceo"
+    },
+    {
+        "title": "Race-A-Room",
+        "description" : "Race to the finish, but avoid crashing because that will certainly slow you down! Built for Ludum Dare 37 themed 'One Room'",
+        "itchioGameId": "104311",
+        "itchioGameUrl": "https://skoggygames.itch.io/race-a-room"
+    },
+    {
+        "title": "Discovering Fire",
+        "description" : "Follow one lonely caveman in his journey to the discovery of fire. This was my entry for Ludum Dare 36 and a game made in 48 hours during the compo.",
+        "itchioGameId": "81963",
+        "itchioGameUrl": "https://skoggygames.itch.io/discovering-fire"
+    },
+    {
+        "title": "Lonely Rover",
+        "description" : "The lonely rover is stuck on a small asteroid. You must rebuild your broken ship so you can return back home! Built for Ludum Dare 38",
+        "itchioGameId": "136884",
+        "itchioGameUrl": "https://skoggygames.itch.io/lonely-rover"
+    },
+    {
+        "title": "GLENN - A Driving Saga",
+        "description" : "In this thrilling, high paced driving game you will put your nerves to the test as you battle against 7 of the most fantastic maps ever created. The game pays tribute to games such as death rally and portal while bringing a unique twist to the whole created world theme. Try it, you will be angry, but not disappointed!",
+        "itchioGameId": "10795",
+        "itchioGameUrl": "https://skoggygames.itch.io/glenngame"
+    },
+    {
+        "title": "Space Cargo",
+        "description" : "Load cargo into the carco hold - Made for Ludum Dare",
+        "itchioGameId": "15182",
+        "itchioGameUrl": "https://skoggygames.itch.io/space-cargo"
+    }
+]
