@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="center">
+
+        <h1 class="title">Skoggy Games</h1>
+        <hr class="mb-3"/>
+        <h2>
+            <span class="text-muted">by</span>
+            Erik Skoglund
+        </h2>
+
+        <hr />
+
+        <div class="mb-5">
+            {% include icon-github-custom.html username=site.github_username %} | 
+            {% include icon-twitter-custom.html username=site.twitter_username %}
+        </div>
+    
+        {% for game in site.data.games %}
+    
+        <h2>
+            <a href="{{ game.itchioGameUrl }}" target="_blank">
+                {{ game.title }}
+            </a>
+        </h2>
+        
+        <div class="center mb-4">
+            <div>
+                <i>{{ game.description }}</i> 
+            </div>
+        </div>
+        <iframe frameborder="0" src="https://itch.io/embed/{{ game.itchioGameId }}?border_width=0&amp;bg_color=ebebe0" width="208" height="165"></iframe>
+    
+        {% endfor %}
+    
+    </div>
+</div>
