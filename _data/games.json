@@ -1,5 +1,11 @@
 [
     { 
+        "title": "Oink Royale",
+        "description" : "As a lonely piggy bank you must bankrupt the other evil piggy banks by shooting your coins at them. But beware! When you're out of coins, you explode!",
+        "itchioGameId": "412258",
+        "itchioGameUrl": "https://skoggygames.itch.io/oink-royale"
+    },
+    { 
         "title": "Shotgun Shack",
         "description" : "Shotgun Shack was made as a part of a Indie Game Development Presentation held in Borås/Sweden in 2016",
         "itchioGameId": "121674",
