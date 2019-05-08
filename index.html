@@ -3,18 +3,19 @@ layout: default
 ---
 
 <div class="center">
-    <h1 class="title">Skoggy Games</h1>
-    <hr class="mb-3"/>
+    <h1 class="title">SKOGGY GAMES</h1>
     <h2>
         <span class="text-muted">by</span>
         Erik Skoglund
     </h2>
 
-    <hr />
-
-    <div class="mb-5">
-        {% include icon-github-custom.html username=site.github_username %} | 
-        {% include icon-twitter-custom.html username=site.twitter_username %}
+    <div class="mb-3">
+        <span>
+            {% include icon-github-custom.html username=site.github_username %}
+        </span>
+        <span>
+            {% include icon-twitter-custom.html username=site.twitter_username %}
+        </span>
     </div>
 </div>
 
@@ -30,7 +31,7 @@ layout: default
 
         <iframe frameborder="0" src="https://itch.io/embed/{{ game.itchioGameId }}?border_width=0&amp;bg_color=fafafa" width="208" height="165"></iframe>
         <div class="game-description">
-            <i>{{ game.description }}</i> 
+            <p>{{ game.description }}</p>
         </div>
     </div>
 

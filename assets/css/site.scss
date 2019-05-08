@@ -1,7 +1,7 @@
 ---
 ---
 
-$color-background: white;
+$color-background: darken(white, 10%);
 $color-text: rgb(50, 50, 50);
 $color-link: black;
 $color-text-muted: rgb(150, 150, 150);
@@ -9,7 +9,7 @@ $color-text-muted: rgb(150, 150, 150);
 body{
     background-color:$color-background;
     color: $color-text;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
 .center{
@@ -20,7 +20,7 @@ body{
     margin:0;
     margin-top:12x;
     font-size: 4em;
-    margin-bottom:24px;
+    padding:0;
 }
 
 .text-muted{
