@@ -1,13 +1,13 @@
 title: Skoggy Games
 email: skoggy@skoggygames.com
 description: >
-  Skoggy Games makes video games like Puck Off
+  Skoggy Games makes video games like Ludum Dare winning game Oink Royale!
 
 baseurl: ""
 url: ""
 twitter_username: erikskogl
 github_username:  eriksk
-copyright: Copyright &copy Erik Skoglund - Skoggy Games 2017
+copyright: Copyright &copy Erik Skoglund - Skoggy Games 2021
 
 markdown: kramdown
 theme: minima

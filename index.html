@@ -2,37 +2,36 @@
 layout: default
 ---
 
-<div class="center">
-    <h1 class="title">SKOGGY GAMES</h1>
-    <h2>
-        <span class="text-muted">by</span>
-        Erik Skoglund
-    </h2>
-
-    <div class="mb-3">
-        <span>
-            {% include icon-github-custom.html username=site.github_username %}
-        </span>
-        <span>
-            {% include icon-twitter-custom.html username=site.twitter_username %}
-        </span>
+<div style="margin-top:32px;">
+    <div>
+        <h1 class="title">Skoggy Games</h1>
+        <span><i>by</i> Erik Skoglund</span>
     </div>
-</div>
 
-<div class="container">
+    <hr />
+
     {% for game in site.data.games %}
 
-    <div class="item game center">
+    <div style="margin-bottom: 16px;">
         <h2>
-            <a href="{{ game.itchioGameUrl }}" target="_blank">
-                {{ game.title }}
-            </a>
+            {{ game.title }}
         </h2>
+        <div class="row">
+            <div class="four columns">
 
-        <iframe frameborder="0" src="https://itch.io/embed/{{ game.itchioGameId }}?border_width=0&amp;bg_color=fafafa" width="208" height="165"></iframe>
-        <div class="game-description">
-            <p>{{ game.description }}</p>
+                <iframe frameborder="0"
+                    src="https://itch.io/embed/{{ game.itchioGameId }}?border_width=0&amp;bg_color=fafafa" width="208"
+                    height="165"></iframe>
+            </div>
+            <div class="eight columns">
+                <p>{{ game.description }}</p>
+                <div>
+                    <a class="button button-primary" href="{{ game.itchioGameUrl }}" target="_blank">Download on
+                        itch.io</a>
+                </div>
+            </div>
         </div>
+        <hr />
     </div>
 
     {% endfor %}
